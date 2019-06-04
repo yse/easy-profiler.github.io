@@ -27,14 +27,13 @@ markdown: kramdown
 #theme: minima
 theme: minimal-mistakes-jekyll
 
+include: ["_pages"]
+minimal_mistakes_skin: "default"
 
+logo: "/assets/logo.svg"
 
-plugins:
-  - jekyll-feed
-
-
-include: ["_pages", "_data"]
-
+atom_feed:
+  path: ""
 
 defaults:
   # _pages
@@ -42,8 +41,17 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: default
-      #author_profile: true
+      layout: splash
+      author_profile: false
+      classes: 
+        - wide
+        - landing
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yse/easy_profiler"
+      #
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
