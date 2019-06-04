@@ -24,12 +24,26 @@ github_username:  yse
 
 # Build settings
 markdown: kramdown
-theme: minima
-#theme: minimal-mistakes-jekyll
+#theme: minima
+theme: minimal-mistakes-jekyll
+
 
 
 plugins:
   - jekyll-feed
+
+
+include: ["_pages", "_data"]
+
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+      #author_profile: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
