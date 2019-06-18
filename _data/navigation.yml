@@ -1,9 +1,8 @@
-main:
-  - title: "Features"
-    url: /features/
-  - title: "Quik start"
-    url: /quik_start/
-  - title: "Show cases"
-    url: /show_cases/
-  - title: "Premium"
-    url: /premium/
+- title: "Features"
+  url: /features/
+- title: "Quik start"
+  url: /quik_start/
+- title: "Show cases"
+  url: /show_cases/
+- title: "Premium"
+  url: /premium/

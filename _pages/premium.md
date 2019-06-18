@@ -1,7 +1,7 @@
 ---
 title: Premium
 permalink: /premium/
-layout: archive
+layout: default
 classes: tiny
 ---
 

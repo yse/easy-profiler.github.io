@@ -1,0 +1,11 @@
+<nav>
+	<ul style="list-style-type: none;">
+		{% for item in site.data.navigation %}
+		<li style="display: inline">
+    		<a href="{{ item.url }}" {% if item.url == page.url %}class="active"{% endif %} style="color: white; font-size: 26px;">
+      			{{ item.title }}	
+   			</a>
+  		{% endfor %}
+		</li>
+	</ul>
+</nav>
